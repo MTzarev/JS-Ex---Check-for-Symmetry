@@ -1,9 +1,9 @@
 let {expect} = require(`chai`);
-let isSymmetric = require(`./isSymmetric.js`);
+let isSymmetric = require(`./isSymmetric.js`)
 
 describe(`isSymmetric`, ()=>{
     it (`return true for symmetric 2 nums`,()=>{
-        expect(isSymmetric([1,1])).to.be.true;
+        expect(isSymmetric([1,1])).to.be.true
     });
     it(`return true for sym 2 letters`,()=>{
         expect(isSymmetric([`a`,`a`])).to.be.true
